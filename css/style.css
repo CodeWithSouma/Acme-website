@@ -152,3 +152,48 @@ footer{
     width: 60%;
 
 }
+
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+
+aside#sidebar .quote input,aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+
+    }
+  
+    header{
+      padding-bottom:20px;
+    }
+  
+    #newsletter button, .quote button{
+      display:block;
+      width:100%;
+    }
+  
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+      width:100%;
+      margin-bottom:5px;
+    }
+  }
+  
